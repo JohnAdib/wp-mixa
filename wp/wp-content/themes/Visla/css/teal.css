@@ -1,0 +1,236 @@
+/* Global Layout */
+
+body
+{
+	background: #f2f2f2 url(teal/bg.gif) top left repeat-x;
+}
+
+body.inner{
+	background: #f2f2f2 url(teal/bg.gif) center -145px repeat-x;
+}
+
+/* ------- Header ------- */
+
+#shim{
+	background: url(teal/head.png) top center no-repeat;
+}
+
+
+/* ------- Menu ------- */
+
+
+ul.dropdown a:hover { 
+	background: #002b2b; 
+}
+
+ul.dropdown li a { 
+	color: #80ffff;
+}
+
+ul.dropdown li:last-child a         { padding-bottom:9px; } /* Doesn't work in IE */
+/*ul.dropdown li.hover,*/
+ul.dropdown li:hover,
+ul.dropdown li a:hover { 
+	background: #002b2b;
+}
+
+
+/* 
+	LEVEL TWO
+*/
+
+ul.dropdown ul li { 
+	background: #002b2b; 	
+}
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a{ 
+	color: #80ffff;
+} 
+
+/* ------- Search form ------- */
+
+#search{
+	background: url(teal/search-bg.gif) top left no-repeat;		
+}
+
+/* ------- General structure ------- */
+
+#splash{
+	background: url(teal/fade.png) top center no-repeat;
+}
+
+
+#section-title{
+	background: url(teal/page-fade.png) top left no-repeat;	
+}
+
+
+#outer-page{
+	background: url(teal/page-fade.png) 0 -85px no-repeat;
+}
+
+/* ------- Portfolio full view ------- */
+
+.work h2{
+	color: #003c3c;
+}
+
+.work h2 a{
+	color: #003c3c;
+}
+
+.work h2 a:hover{
+	color: #006f6f;
+}
+
+.work a:hover{
+	color: #003c3c;
+}
+
+.work li{						
+	padding: 2px 18px 2px 0px;
+	background: url(teal/bull.gif) center right no-repeat;
+}
+
+		
+/* ------- Portfolio gallery view ------- */
+
+
+#folio h3{
+	color: #003c3c;	
+}
+
+#folio h3 a{
+	color: #003c3c;
+}
+
+#folio h3 a:hover{
+	color: #006f6f;
+	text-decoration:none;
+}
+
+#folio a{
+	color: #666666;
+}
+
+#folio a:hover{
+	color: #003c3c;
+}
+
+/* ------- Blog & Post ------- */
+
+
+.entry{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.entry .error_required li{
+	color:#791717;
+}
+
+.entry-content img{
+	border: 5px solid #e5e5e5;
+	max-width: 600px;
+}
+
+
+.entry li{
+	color: #003c3c;
+}
+
+.entry a{
+	color: #003c3c;
+}
+
+.entry blockquote{
+	background: #f2f2f2 url(teal/q.gif) top left no-repeat;
+}
+
+.entry .highlight2{
+	background: #003c3c;
+	color: #fff;
+}
+
+.vcard {
+	color:#666666;
+}
+
+.vcard cite {
+	color: #003c3c;
+}
+
+.vcard cite a{
+	color: #003c3c;
+}		
+	
+.commentlist  p{
+	color:#666666;
+}	
+
+
+#submit{
+	background: url(teal/post-submit.gif) center no-repeat;
+}
+
+/* ------- Pagination ------- */
+
+
+.paginate a{
+	background: #003c3c;
+}
+
+.paginate a.active{
+	color: #003c3c;
+}
+
+/* ------- Sidebar ------- */
+
+.widget_popular_posts a{
+	color: #003c3c;	
+}
+
+
+#recentcomments a{
+	color: #003c3c;	
+}
+
+
+#sidebar a:hover{
+	color: #003c3c;
+}
+
+#sidebar{
+	color: #003c3c;	
+}
+
+
+/* ------- Footer ------- */
+
+#foot{
+
+	background: url(teal/foot-bg.gif) top left;
+}
+
+.social1{
+	background: url(teal/social1.gif) top left no-repeat;
+}
+.social2{
+	background: url(teal/social2.gif) top left no-repeat;
+}
+.social3{
+	background: url(teal/social3.gif) top left no-repeat;
+}
+.social4{
+	background: url(teal/social4.gif) top left no-repeat;
+}
+
+.sf-menu li ul {
+	background-color: #002b2b;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	color:#fff;
+	outline: 0;
+	background-color: #002b2b;	
+}
